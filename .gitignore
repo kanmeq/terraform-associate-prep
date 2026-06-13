@@ -1,0 +1,23 @@
+# Local files of Terraform state
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Terraform RC configuration
+.terraformrc
+terraform.rc
+
+# Hidden service folder of Terraform
+.terraform/
+
+# Secret passwords and variables
+*.tfvars
+*.tfvars.json
+terraform.tfvars
+terraform.tfvars.json
+
+# Terraform lock file
+.terraform.lock.hcl
