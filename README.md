@@ -7,13 +7,16 @@ This repository is my studying and notes for HashiCorp Terraform Associate exam.
 
 ## Exam Topic Progress
 
-- [x] **01. IaC Concepts & Basics** — Core IaC benefits; init, plan, apply, and destroy lifecycles.
-- [ ] **02. Provisioners** — Implementing local-exec and remote-exec; operational risks.
-- [ ] **03. Providers** — Configuring cloud providers, aliases, and version locks.
-- [ ] **04. Terraform Language Syntax** — Resource loops using count and for_each.
-- [ ] **05. Variables and Data Sources** — Architecting inputs, outputs, and external data.
-- [ ] **06. Manage State** — State storage internals, remote backends (S3), and locking.
-- [ ] **07. Modules** — Developing reusable infrastructure patterns.
+- [] **1. Infrastructure as Code (IaC) with Terraform**
+- [ ] **2. Terraform fundamentals**
+
+  * `01-terraform-basics/`
+- [ ] **3. Core Terraform workflow**
+- [ ] **4. Terraform configuration**
+- [ ] **5. Terraform modules**
+- [ ] **6. Terraform state management**
+- [ ] **7. Maintain infrastructure with Terraform**
+- [ ] **8. HCP Terraform**
 
 ## Local Deployment Guide
 
