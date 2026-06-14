@@ -3,11 +3,11 @@
 This repository is my studying and notes for HashiCorp Terraform Associate exam.
 
 > [!IMPORTANT]
-> All sensitive cloud credentials and local state files are strictly excluded via `.gitignore`. Never leave real secrets in an open repository.
+> All sensitive cloud credentials and local state files are excluded via `.gitignore`. Never leave real secrets in an open repository.
 
 ## Exam Topic Progress
 
-- [] **1. Infrastructure as Code (IaC) with Terraform**
+- [ ] **1. Infrastructure as Code (IaC) with Terraform**
 - [ ] **2. Terraform fundamentals**
 
   * `01-terraform-basics/`
