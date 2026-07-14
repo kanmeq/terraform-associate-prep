@@ -4,11 +4,15 @@ terraform {
       source  = "hashicorp/local"
       version = "~> 2.5"
     }
+    tls = {
+      source  = "hashicorp/tls"
+      version = "~> 4.0"
+    }
   }
 }
 
 resource "tls_private_key" "main" {
-  algorithm = RSA
+  algorithm = "RSA"
   rsa_bits = 4096
 }
 
