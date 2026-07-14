@@ -18,6 +18,7 @@ terraform.rc
 *.tfvars.json
 terraform.tfvars
 terraform.tfvars.json
+*.pem
 
 # Terraform lock file
 .terraform.lock.hcl
